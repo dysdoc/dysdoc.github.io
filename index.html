@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>DocGen 2018</title>
+    <title>DySDoc 3</title>
 
     <!-- favicon -->
     <link href="favicon.png" rel=icon>
@@ -75,8 +75,8 @@
     <div id="cover" class="jumbotron text-center">
         <div class="content">
             <div class="event-date">September 25, 2018, Madrid, Spain</div>
-            <h1>First Software Documentation Generation Challenge</h1>
-            <p class="lead">The Software Documentation Generation Challenge aims to spur research to increase automation of software documentation creation and maintenance.</p>
+            <h1>Third International Workshop on <br/>Dynamic Software Documentation (DySDoc 3)</h1>
+            <p class="lead">The DySDoc 3 workshop will host the First Software Documentation Generation Challenge (DocGen), <br/>which aims to spurs research on automation of software documentation generation and maintenance.</p>
              <!-- <button type="button" class="btn btn-default btn-lg">STAY IN THE LOOP</button>-->
         </div>
     </div>
@@ -95,10 +95,12 @@
             <div class="row">
                 <div class="col-md-12">
                     <p class="lead">
-                        Documentation is an essential component of the software development process, yet efficiently writing and maintaining high-quality documentation is extremely challenging. Automatically-generated On-Demand Developer Documentation (OD3) has the potential to make information on software more accessible to developers and cheaper to produce and maintain.
+                        Documentation is an essential component of the software development process, yet efficiently writing and maintaining high-quality documentation is extremely challenging. Automatically-generated <a href="http://www.cs.mcgill.ca/~martin/blog/2017-11-06.html"  target="_blank">On-Demand Developer Documentation (OD3)</a> has the potential to make information on software more accessible to developers and cheaper to produce and maintain.
                     </p>
                     <p class="lead">
-                        The Software Documentation Generation Challenge aims to spur research to increase automation of software documentation creation and maintenance. Participation in the challenge involves developing a prototype tool and operating the tool as part of a live competition. The first DocGen Challenge Competition will be co-located with the IEEE International Conference on Software Maintenance and Evolution (ICSME 2018). The DocGen-1 Competition will feature a live, juried tool evaluation, presentations of the best approaches, and a poster session. The extended summaries describing the entries will be published in the workshop proceedings. The best entries will be recognized with awards.
+                        The third version of the <a href="http://www.cs.mcgill.ca/~martin/bellairs2018/"  target="_blank">DySDoc workshop</a> will host the 
+						First Software Documentation Generation Challenge (DocGen), which aims to spur research on automation of software documentation generation and maintenance. 
+						The DocGen challenge will be co-located with the <a href="https://icsme2018.github.io/"  target="_blank">IEEE International Conference on Software Maintenance and Evolution (ICSME 2018)</a>. Participation in the challenge involves developing a prototype tool and operating the tool as part of a live competition. The competition will feature a live, juried tool evaluation, presentations of the best approaches, and a poster session. The extended summaries describing the entries will be published in the workshop proceedings. The best entries will be recognized with awards.
                     </p>
                 </div>
                <!-- <div class="col-md-4">
@@ -140,8 +142,18 @@
                     <p class="lead">XX, YY+3, 2018 - Notifications of qualifiers</p>
                     <p class="lead">September 25, 2018 - DocGen</p>
 					
-                </div>
+                </div>				
+				<div class="col-md-12">
+                    <p class="lead"><h2>News</h2></p>
+					<a class="twitter-timeline" data-link-color="#fd367e" height="400px"  href="https://twitter.com/dysdoc">Tweets by @dysdoc</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+				</div>
             </div>
+			
+			
+						
+			<!-- Twitter timeline was here -->
+            <div id="subsection-dates"  class="row">
+			</div>
         </div>
     </section>
 
@@ -160,7 +172,7 @@
                     <p class="lead">An entry to the OD3 Challenge is a program that takes as input the fully qualified name of a class from the <a href="https://poi.apache.org/"  target="_blank">Apache POI project</a> and generates an output that contains the reference documentation for the input class in html format.
                     </p>
                     <p class="lead">
-						The target system for this challenge is the <a href="https://poi.apache.org/"  target="_blank">Apache POI project</a>, version 3.17-final (r31807825, commit 219dff00e61e9ad73a16b73a430cb80954f6262c, Sept 8, 2017). The source code of the project can be found on <a href="https://github.com/apache/poi"  target="_blank">Github</a>.
+						The target system for this challenge is the <a href="https://poi.apache.org/"  target="_blank">Apache POI project</a>, version 3.17-final (r31807825, commit 219dff00e6, on Sept. 8, 2017). The source code of the project can be found on <a href="https://github.com/apache/poi"  target="_blank">Github</a>.
                     </p>
                     <p class="lead">The document generator can rely only on the following resources:
                     </p>
@@ -172,24 +184,27 @@
 					  <li><a href="https://bz.apache.org/bugzilla/buglist.cgi?product=POI"  target="_blank">Issue tracking data</a></li>
 					  <li><a href="https://github.com/prmr/DysDoc2/blob/master/challenge"  target="_blank">Stack Overflow threads for POI</a></li>
 					</ul>
-                    <p class="lead">We also provide a preprocessed dataset of the above information, which includes the following:</p>
+					<!-- TODO: change the Zenodo link-->
+                    <p class="lead">We provide a <a href="https://zenodo.org/deposit/1195817"  target="_blank">preprocessed dataset</a> of some the above information, which includes the following:</p>
 					
 					<ul class="reg_list">
-					  <li>A set of all the commits of the projects.</li>
-					  <li>A set of all the issues of the project, including links to the commits that address the issue, if any</li>
-					  <li>A set of all the messages sent to the mailing lists</li>
-					  <li>A set of UML diagrams that visually represent a selected group of relations between program elements.</li>
+					  <li>All the commits of the project.</li>
+					  <li>All the issues of the project.</li>
+					  <li>The call graph of project methods and classes.</li>
+					  <li>Inheritance tree of the project classes.</li>
+					  <li>Method call traces from test case execution.</li>
+					  <li>Stack Overflow posts.</li>
 					</ul>
 
                     <p class="lead">Contestants are free to use these preprocessed data sets, develop their own tools to process the original information found in the repositories, or use a combination of both. The solution can involve human-produced intermediate data and annotations: however, any manual input to the generation process must be clearly detailed. Entries that focus on one aspect of the reference documentation are explicitly encouraged, in particular if they are novel and innovative
 
 
                     </p>
-                    <p class="lead">Interested teams of participants can enter the challenge in one of two categories: competition, or exhibition. The Competition category will only accept entries that address the specific DocGen-1 Challenge. The Exhibition category will accept any demonstration of documentation generation technology, for any programming language, technology, or types of documents. Entries in the Exhibition category will be invited to present at the competition and participate in the poster session, but will not be evaluated as part of the competition. It is expected that the specification of the following challenge will be influenced by strong entries in the exhibition categories.
+                    <p class="lead">Interested teams of participants can enter the challenge in one of two categories: competition, or exhibition. The Competition category will only accept entries that address the specific DocGen Challenge. The Exhibition category will accept any demonstration of documentation generation technology, for any programming language, technology, or types of documents. Entries in the Exhibition category will be invited to present at the competition and participate in the poster session, but will not be evaluated as part of the competition. It is expected that the specification of the following challenge will be influenced by strong entries in the exhibition categories.
 
 
                     </p>
-                    <p class="lead">Participation in the DocGen-1 Challenge involves two phases: the qualification and the competition. All participants in both categories must qualify. All qualifying entries will be invited to the DocGen-1 event. Only entries submitted to the competition category will be evaluated as part of the challenge competition.
+                    <p class="lead">Participation in the DocGen Challenge involves two phases: the qualification and the competition. All participants in both categories must qualify. All qualifying entries will be invited to the DocGen event. Only entries submitted to the competition category will be evaluated as part of the challenge competition.
                     </p>
                     <p class="lead"><h2>Qualification</h2>
                     </p>
@@ -199,10 +214,11 @@
 					  <li>Authors</li>
 					  <li>Data sources used</li>
 					  <li>Brief overview of technique(s) used</li>
-					  <li>Preliminary results, including an HTML link to the generated reference documentation for class ?????</li>
+					  <li>Preliminary results, including an HTML link to the generated reference documentation for class XXXXXX</li>
 					</ul>
 					
-                    <p class="lead">All submissions must be formatted according to the ICSME Formatting Instructions and must be submitted through EasyChair.
+					<!-- TODO: change the EasyChair link-->
+                    <p class="lead">All submissions must be formatted according to the <a href="https://icsme2018.github.io/cfp/formatting-instructions.html"  target="_blank">ICSME Formatting Instructions</a> and must be submitted through <a href="https://easychair.org/conferences/?conf=docgen2018"  target="_blank">EasyChair</a>.
                     </p>
                     <p class="lead"><h2>Competition</h2>
                     </p>
@@ -233,7 +249,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <p class="lead"> Registration is now open at ...
+                    <p class="lead"> Registration will be open at ...
                     </p>
                     <p class="lead">Each accepted paper must have at least one author registered. The registration is free...
                     </p>
@@ -422,6 +438,205 @@
                     </figure>
                 </div>
                 <!-- /.col-sm-6 -->
+            </div>
+				
+				
+				<!-- .row -->
+            <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="#"><img src="img/img-team-5.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>Laura Moreno
+                                <small>Challenge co-host</small>
+                            </h3>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
+
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="#"><img src="img/img-team-6.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>Sarah Nadi
+                                <small>Publicity/data co-chair</small>
+                            </h3>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
+
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="#"><img src="img/img-team-7.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>Takashi Kobayashi 
+                                <small>Publicity co-chair</small>
+                            </h3>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
+
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="#"><img src="img/img-team-8.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>David Shepherd
+                                <small>Challenge co-host</small>
+                            </h3>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
+				
+				
+            </div>
+				
+				
+				<!-- .row -->
+            <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="#"><img src="img/img-team-1.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>Shinpei Hayashi
+                                <small>Data co-chair</small>
+                            </h3>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
+
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="#"><img src="img/img-team-2.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>Neil Ernst
+                                <small>Program co-chair</small>
+                            </h3>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
+
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="#"><img src="img/img-team-3.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>Marco Gerosa
+                                <small>Program co-chair</small>
+                            </h3>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
+
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="#"><img src="img/img-team-7.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>Hideaki Hata
+                                <small>Data co-chair</small>
+                            </h3>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
+				
+				
+				
+				
+            </div>
+				
+				
+				<!-- .row -->
+            <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="#"><img src="img/img-team-1.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>James Clause
+                                <small>Data co-chair</small>
+                            </h3>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
+
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="#"><img src="img/img-team-2.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>Oscar Chaparro
+                                <small>Data/web co-chair</small>
+                            </h3>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+            
 
             </div>
             

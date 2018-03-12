@@ -1,0 +1,58 @@
+Apache POI pre-processed data for the first DocGen challenge
+
+<p>The pre-processed data for First Software Documentation Generation Challenge (DocGen), hosted at the&nbsp;<a href="https://dysdoc.github.io/">Third International Workshop on&nbsp;Dynamic Software Documentation (DySDoc 3)</a>, includes the following datasets for <a href="https://poi.apache.org/">Apache POI 3.17</a>:</p>
+
+<p><strong>Call graph between method and classes.</strong></p>
+
+<p>File:&nbsp;call-graph-poi-3.17-all.zip</p>
+
+<p>CSV file with the call graph between methods and between classes. The call graph was produced by the tool&nbsp;<a href="https://github.com/gousiosg/java-callgraph/">java-callgraph</a>.&nbsp;</p>
+
+<p>The CSV file contains the following columns:</p>
+
+<ul>
+	<li>call_type: call between (C)lasses or (M)ethods</li>
+	<li>caller: the Fully Qualified Name (FQN) of the caller</li>
+	<li>method_call_type: the type of method call:
+	<ul>
+		<li>M for invokevirtual calls</li>
+		<li>I for invokeinterface calls</li>
+		<li>O for invokespecial calls</li>
+		<li>S for invokestatic calls</li>
+		<li>D for invokedynamic calls</li>
+	</ul>
+	</li>
+	<li>callee: the FQN of the callee</li>
+</ul>
+
+<p>For more details about the format and each type of method call, check the tool&nbsp;<a href="https://github.com/gousiosg/java-callgraph/">README</a>.</p>
+
+<p><strong>Call traces from tests</strong></p>
+
+<p><strong>Inheritance hierarchy</strong></p>
+
+<p><strong>Issue data</strong></p>
+
+<p>File:&nbsp;bugzilla-poi-dump.zip</p>
+
+<p>CSV file&nbsp;with the list of issues of&nbsp;<a href="https://bz.apache.org/bugzilla/buglist.cgi?product=POI">Apache POI</a>&nbsp;(timestamp: Tue Feb 27,&nbsp;2018, 18.41.40 UTC)</p>
+
+<p>The CSV file contains the following columns:</p>
+
+<ul>
+	<li>record_id: sequential number</li>
+	<li>issue_id: the ID that identifies the issue in the issue tracker</li>
+	<li>issue_url: the URL of the issue in the issue tracker</li>
+	<li>issue_title: the title of the issue</li>
+	<li>xml_path: the path to the XML of the issue, which contains all the issue information provided by the issue tracker</li>
+</ul>
+
+<p>All the issue in XML format can be found in the &quot;poi&quot; folder in the ZIP file</p>
+
+<p><strong>Commit data</strong></p>
+
+<p><strong>StackOverflow data</strong></p>
+
+<p>File:&nbsp;apache-poi-SO.zip</p>
+
+<p>JSON file with all 6,299 Stack Overflow threads with the&nbsp;<code>apache-poi</code>&nbsp;tag,</p>

@@ -763,7 +763,7 @@ button:focus,
 	z-index: 10;  
 	position: fixed;  
 	right: 0;  
-	top: 45%;
+	top: 20%;
 	left: 82%;
 	background: rgba(255, 255, 255, .6);
 	font-family: 'Roboto', sans-serif;
