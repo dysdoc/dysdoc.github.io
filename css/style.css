@@ -482,9 +482,9 @@ button:focus,
     font-size        : 16px;
     font-weight: bold;
 
-    margin           : 0 40px;
+    #margin           : 0 40px;
     text-transform   : uppercase;
-    padding          : 10px 0;
+    #padding          : 10px 0;
     }
 
 
@@ -786,4 +786,10 @@ ul.reg_list{
     list-style : initial;
 	padding-left:40px;
 	margin-bottom: 20px;
+}
+
+.affil{
+	font-size: 15px;
+	text-transform: initial;
+	margin-top: 5px;
 }
