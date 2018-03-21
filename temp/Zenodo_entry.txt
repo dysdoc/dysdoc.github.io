@@ -1,4 +1,4 @@
-Apache POI pre-processed data for the first DocGen challenge
+<p>Apache POI pre-processed data for the first DocGen challenge</p>
 
 <p>The pre-processed data for First Software Documentation Generation Challenge (DocGen), hosted at the&nbsp;<a href="https://dysdoc.github.io/">Third International Workshop on&nbsp;Dynamic Software Documentation (DySDoc 3)</a>, includes the following datasets for <a href="https://poi.apache.org/">Apache POI 3.17</a>:</p>
 
@@ -27,11 +27,22 @@ Apache POI pre-processed data for the first DocGen challenge
 
 <p>For more details about the format and each type of method call, check the tool&nbsp;<a href="https://github.com/gousiosg/java-callgraph/">README</a>.</p>
 
-<p><strong>Call traces from tests</strong></p>
-
 <p><strong>Inheritance hierarchy</strong></p>
 
-<p><strong>Issue data</strong></p>
+<p>File:&nbsp;poi-3.17-inheritance.zip</p>
+
+<p>A CSV file with the inheritance hierarchy of POI, which was extracted using bcel 6.2</p>
+
+<p>The CSV file contains the following columns:</p>
+
+<ul>
+	<li>record_id: sequential number</li>
+	<li>parent_class: the parent class</li>
+	<li>child_class: the child class</li>
+	<li>relationship_type: the type of relationship, i.e., the child&nbsp;class &#39;extends&#39; or &#39;implements&#39; the parent class</li>
+</ul>
+
+<p><strong>Issues</strong></p>
 
 <p>File:&nbsp;bugzilla-poi-dump.zip</p>
 
@@ -47,11 +58,30 @@ Apache POI pre-processed data for the first DocGen challenge
 	<li>xml_path: the path to the XML of the issue, which contains all the issue information provided by the issue tracker</li>
 </ul>
 
-<p>All the issue in XML format can be found in the &quot;poi&quot; folder in the ZIP file</p>
+<p>All the issues in XML format can be found in the &quot;poi&quot; folder in the ZIP file</p>
 
-<p><strong>Commit data</strong></p>
+<p><strong>Commits</strong></p>
 
-<p><strong>StackOverflow data</strong></p>
+<p>File:&nbsp;poi-commits.zip</p>
+
+<p>A JSON file with commit information for POI 3.17 (until revision 219dff00e6, on Sept. 8, 2017).</p>
+
+<p>For each commit, we provide:</p>
+
+<ul>
+	<li>Commit hash</li>
+	<li>Parent commit hash (if exists)</li>
+	<li>Commit message</li>
+	<li>Commit time</li>
+	<li>Committer name</li>
+	<li>Method-level changes (addition/deletion/modification/renaming and method FQN).
+	<ul>
+		<li>The FQN contains information about the class (CN)&nbsp;and method (MT) or constructor (CS)</li>
+	</ul>
+	</li>
+</ul>
+
+<p><strong>StackOverflow posts</strong></p>
 
 <p>File:&nbsp;apache-poi-SO.zip</p>
 
