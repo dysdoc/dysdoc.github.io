@@ -117,7 +117,7 @@ function initMap() {
 		// Dates panel
 		// --------------------------------------------------------------------
 		
-		var scrollHandler = function () {
+		/*var scrollHandler = function () {
             if ($(this).scrollTop() >= $('#cover').height()/8) {
                 $('#subsection-dates').fadeIn('slow');
             }
@@ -145,7 +145,7 @@ function initMap() {
 
         $(window).resize(
 			viewport.changed(resizeHandler)
-		);
+		);*/
 		
     });
 })(jQuery, ResponsiveBootstrapToolkit);
