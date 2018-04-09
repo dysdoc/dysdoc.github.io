@@ -793,3 +793,7 @@ ul.reg_list{
 	text-transform: initial;
 	margin-top: 5px;
 }
+
+a:visited{
+  color:#fd367e;
+}
