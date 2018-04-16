@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>DySDoc3</title>
+
+    <!-- favicon -->
+    <link href="favicon.png" rel=icon>
+
+    <!-- web-fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,500' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Style CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar">
+<div id="main-wrapper">
+    <!-- Page Preloader -->
+    <div id="preloader">
+        <div id="status">
+            <div class="status-mes"></div>
+        </div>
+    </div>
+
+    <header class="header">
+        <!-- Navigation -->
+        <nav class="navbar main-menu" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logos/logo.png" alt=""></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        <li class="hidden"><a href="#page-top"></a></li>
+                        <li><a class="page-scroll" href="#section-challenge">2018 Challenge</a></li>
+                        <li><a class="page-scroll" href="#section-submission">Submission</a></li>
+                        <li><a class="page-scroll" href="#section-important-dates">Dates</a></li>
+                        <li><a class="page-scroll" href="#section-registration">Registration</a></li>
+                        <li><a class="page-scroll" href="#section-program">Program</a></li>
+                        <li><a class="page-scroll" href="#section-organization">Organization</a></li>
+                        <li><a class="page-scroll" href="#section-venue">Venue</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+
+        <!-- .nav -->
+
+    </header>
+
+    <div id="cover" class="jumbotron text-center">
+        <div class="content">
+            <div class="event-date">September 25, 2018, Madrid, Spain</div>
+            <h1>Third International Workshop on <br/>Dynamic Software Documentation (DySDoc3)</h1>
+            <p class="lead">Hosted by the <a href="https://icsme2018.github.io/" style="color:rgba(255, 255, 255, .9);font-weight:bold;"  target="_blank">IEEE International Conference on Software Maintenance and Evolution (ICSME 2018)</a></p>
+            <p class="lead">The DySDoc3 workshop will host the <a href="#section-challenge"  style="color:rgba(255, 255, 255, .9);font-weight:bold;"  target="_blank">First Software Documentation Generation Challenge (DocGen).</a></p>
+             <!-- <button type="button" class="btn btn-default btn-lg">STAY IN THE LOOP</button>-->
+        </div>
+    </div>
+    <!-- .Jumbotron-->
+
+
+    <section id="section-intro" class="section-wrapper about-event">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="section-title">
+                        <h1>ABOUT</h1>
+                    </div>
+                    <p class="lead">
+                        Documentation is an essential component of the software development process, yet efficiently writing and maintaining high-quality documentation is extremely challenging. Automatically-generated <a href="http://www.cs.mcgill.ca/~martin/blog/2017-11-06.html"  target="_blank">On-Demand Developer Documentation (OD3)</a> has the potential to make information on software more accessible to developers and cheaper to produce.
+                    </p>
+                    <p class="lead">
+                        The third version of the DySDoc workshop (following <a href="http://www.cs.mcgill.ca/~martin/bellairs2017/"  target="_blank">DySDoc1</a> and <a href="http://www.cs.mcgill.ca/~martin/bellairs2018/"  target="_blank">DySDoc2</a>) will host the 
+						First Software Documentation Generation Challenge (DocGen), which aims to spur research on automation of software documentation generation. 
+						Participation in the challenge involves developing a prototype tool and entering it in a competition. The competition will feature a live, juried tool evaluation, presentations of the best approaches, and a poster session. The extended summaries describing the entries will be published in the ICSME proceedings. The best entries will be recognized with awards.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <div class="section-title">
+                        <h1>NEWS</h1>
+                    </div>
+					<a class="twitter-timeline" data-link-color="#fd367e" height="400px"
+					href="https://twitter.com/dysdoc">Tweets by @dysdoc</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
+			
+        </div>
+    </section>
+    <!-- .about-event -->
+	
+
+
+    <section id="section-challenge" class="section-wrapper gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>2018 DOCGEN CHALLENGE</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="lead"><a href="files/DysDoc3 CFP.pdf"  target="_blank">Call for submissions (PDF)</a>
+					</p>
+                    <p class="lead">
+                        The challenge is to build an automated system that can create, on-demand, reference documentation for a Java class. The documentation should address, as best as possible, the information needs of an experienced programmer who is considering using the class as part of a software development task. The documentation will provide information helpful to understand the design of the class and how to use it, among others. Examples of the types of information that the document could integrate, include: key methods, usage constraints, usage examples, the role of the class in applicable design patterns, known issues and limitations, etc.
+                    </p>
+					
+                    <p class="lead">An entry to the 2018 DocGen Challenge is a program that takes as input the fully qualified name of a class from the <a href="https://poi.apache.org/"  target="_blank">Apache POI project</a> and generates an output that contains the reference documentation for the input class in html format.
+                    </p>
+                    <p class="lead">
+						The target system for this challenge is the <a href="https://poi.apache.org/"  target="_blank">Apache POI project</a>, version 3.17-final (r31807825, commit 219dff00e6, on Sept. 8, 2017). The source code of the project can be found on <a href="https://github.com/apache/poi"  target="_blank">Github</a>. The project's main contributors are aware of the challenge and willing to provide information to participants if needed.
+                    </p>
+                    <p class="lead">The document generator may rely on the following (and any other) sources of information:
+                    </p>
+					
+					<ul class="reg_list">
+					  <li><a href="https://www.apache.org/dyn/closer.lua/poi/release/src/poi-src-3.17-20170915.zip"  target="_blank">Source code</a>. The generator can use existing comments, but these will be considered a baseline when evaluating solutions.</li>
+					  <li><a href="https://github.com/apache/poi"  target="_blank">Version control data</a></li>
+					  <li><a href="https://poi.apache.org/mailinglists.html"  target="_blank">Mailing list</a></li>
+					  <li><a href="https://bz.apache.org/bugzilla/buglist.cgi?product=POI"  target="_blank">Issue tracking data</a></li>
+					  <li><a href="https://stackoverflow.com/questions/tagged/apache-poi"  target="_blank">Stack Overflow threads for POI</a></li>
+					</ul>
+                    <p class="lead">We provide a <a href="https://doi.org/10.5281/zenodo.1195817"  target="_blank">preprocessed dataset</a> of some the above information, which includes the following:</p>
+					
+					<ul class="reg_list">
+					  <li>All the commits of the project.</li>
+					  <li>All the issues of the project.</li>
+					  <li>The call graph of project methods and classes.</li>
+					  <li>Inheritance tree of the project classes.</li>
+					  <li>Stack Overflow posts.</li>
+					</ul>
+
+                    <p class="lead">Contestants are free to use these preprocessed data sets, develop their own tools to process the original information found in the repositories, or use a combination of both. The solution can involve human-produced intermediate data and annotations. However, any manual input to the generation process must be clearly detailed. Entries that focus on one aspect of the reference documentation are explicitly encouraged, in particular if they are novel and innovative.
+                    </p>
+                </div>
+            </div>
+			
+        </div>
+    </section>
+
+
+    <section id="section-submission" class="section-wrapper about-event">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>SUBMISSION</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="lead">Interested teams of participants can enter the challenge in one of two categories: challenge or exhibition. The <b>Challenge category</b> will only accept entries that address the specific 2018 DocGen Challenge. The summaries of the challenge entries will be published in the ICSME proceedings. The <b>Exhibition category</b> will accept any demonstration of documentation generation technology, for any programming language, technology, or types of documents. Entries in the Exhibition category will be invited to present at the workshop, but will not be evaluated as part of the competition. The purpose of the exhibition category is to showcase state of the art in documentation generation tools, which may inspire the following edition of the DocGen Challenge.
+                    </p>
+                    <p class="lead">Participation in the 2018 DocGen Challenge involves two phases: the <b>qualification</b> and the <b>competition</b>. All participants in both categories must qualify. All qualifying entries will be invited to the DySDoc workshop.
+                    </p>
+                    <p class="lead"><h2>Qualification</h2>
+                    </p>
+                    <p class="lead">To qualify for participation in the challenge or exhibition, participants must submit a 2-page description of the key idea(s) behind their document generator. The description should contain the following information:</p>
+					
+					<ul class="reg_list">
+					  <li>Authors</li>
+					  <li>Data sources used</li>
+					  <li>Brief overview of technique(s) used</li>
+					  <li>Preliminary results, including an HTML link to: </li>
+						<ul class="reg_list">
+						  <li>for the challenge entries only - the generated reference documentation for class <a href="https://poi.apache.org/apidocs/org/apache/poi/xssf/usermodel/XSSFWorkbook.html"  target="_blank">XSSFWorkbook</a></li>
+						  <li>for the exhibition entries only - samples of generated documentation produced by the tool</li>
+						</ul>
+					</ul>
+					
+					<!-- TODO: change the EasyChair link-->
+                    <p class="lead">All submissions must be formatted according to the <a href="https://icsme2018.github.io/cfp/formatting-instructions.html"  target="_blank">ICSME Formatting Instructions</a> and must be submitted through <a href="https://easychair.org/conferences/?conf=dysdoc3"  target="_blank">EasyChair</a>.
+                    </p>
+					
+                    <p class="lead">Each submission will be evaluated by the program committee.
+                    </p>
+					
+                    <p class="lead"><h2>Competition</h2>
+                    </p>
+                    <p class="lead">On the day of the workshop, the qualified challenge entries will be evaluated live. A list of target class names will be provided to the competitors, who will use their tools to generate the respective reference documentation. For each input class, the reference documentation must be generated in less than 2 minutes. The generated documents will be evaluated by a panel of judges and by the workshop attendants based on:
+                    </p>
+					<ul class="reg_list">
+					  <li><b>Comprehesiveness</b>: does the information provided cover different specific needs and variety of usage scenarios for the given class?</li>
+					  <li><b>Correctness</b>: is the information provided consistent with the source code and does not present contradictions?</li>
+					  <li><b>Conciseness</b>: is the information provided succint, relevant, and non-redundant?</li>
+					  <li><b>Originality</b>: does the information provided present new and original content?</li>
+					  <li><b>Usefulness</b>: does the information provided address common information needs and is critical for understanding the given class?</li>
+					  <li><b>Presentation</b>: is the information provided easy to read, understand, and navigate?</li>
+					</ul>
+                    <p class="lead">The best entries will receive awards in several categories, such as: best tool, best presentation, people's choice, etc.
+                    </p>
+					 <p class="lead"><h2 style="padding-top:20px;">Exhibition</h2>
+                    </p>
+                    <p class="lead">On the day of the workshop, the qualified exhibition entries will be presented to the audience, not as part of the challenge. See details in the program.
+                    </p>
+						
+                </div>
+				
+            </div>
+        </div>
+		
+        <div id="section-important-dates" class="container" style="padding-top:40px;">
+            <div class="row">
+				<div  class="col-md-12">
+                    <h2>Important dates</h2>
+                    <p class="lead">July 20, 2018 - Qualifier submissions</p>
+                    <p class="lead">July 27, 2018 - Notifications of qualifiers</p>
+                    <p class="lead">August 3, 2018 - Camera-ready version for accepted challenge entries</p>					
+                </div>	
+            </div>
+        </div>
+    </section>
+	
+
+    <section id="section-registration" class="section-wrapper gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>REGISTRATION</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="lead">The workshop registration is free, generously provided by ICSME 2018. At least one author of each qualified entry must register, attend the workshop, and present the entry.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	
+
+    <section id="section-program" class="section-wrapper section-ajenda">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>PROGRAM</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="lead">Overview of the workshop program (details will follow after the qualifying round):
+                    </p>
+					<ul class="reg_list">
+					  <li>Opening</li>
+					  <li>Live judging of the challenge entries</li>
+					  <li>Awards</li>
+					  <li>Presentations of the award-winning tools</li>
+					  <li>Poster and live demonstrations of all exhibition and challenge entries</li>
+					</ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+	
+	<section id="section-organization" class="section-wrapper team  gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>ORGANIZATION</h1>
+                    </div>
+                </div>
+            </div>
+			
+			<p class="lead"><h2>General co-chairs</h2></p>
+            <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="http://www.cs.mcgill.ca/~martin/" target="_blank"><img src="img/people/martin.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>Martin Robillard
+                                <small class="affil">McGill University, Canada</small>
+                            </h3>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
+
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="http://www.utdallas.edu/~amarcus/" target="_blank"><img src="img/people/andi.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>Andrian Marcus
+                                <small class="affil">The University of Texas at Dallas, USA</small>
+                            </h3>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
+
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="http://ctreude.ca/" target="_blank"><img src="img/people/christoph.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>Christoph Treude
+                                <small class="affil">University of Adelaide, Australia</small>
+                            </h3>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
+
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="http://www.inf.usi.ch/lanza/" target="_blank"><img src="img/people/michele.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>Michele Lanza
+                                <small class="affil">Universit&agrave;  della Svizzera italiana, Switzerland</small>
+                            </h3>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
+            </div>
+			
+			<p class="lead"><h2>Program co-chairs</h2></p>
+
+			
+			<div class="row">
+
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="http://neilernst.net/" target="_blank"><img src="img/people/neil.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>Neil Ernst
+                                <small class="affil">University of Victoria, Canada</small>
+                            </h3>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
+
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="http://www.marcoagerosa.com/" target="_blank"><img src="img/people/marco.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>Marco Gerosa
+                                <small class="affil">Northern Arizona University, USA</small>
+                            </h3>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
+
+				
+				
+				
+            </div>
+			
+			
+			<p class="lead"><h2>Challenge co-hosts</h2></p>
+			
+				<!-- .row -->
+            <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="https://www.cs.colostate.edu/~lmorenoc/" target="_blank"><img src="img/people/laura.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>Laura Moreno
+                                <small class="affil">Colorado State University, USA</small>
+                            </h3>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
+
+
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="http://davidshepherd.weebly.com/" target="_blank"><img src="img/people/david.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>David Shepherd
+                                <small class="affil">ABB Corporate Research, USA</small>
+                            </h3>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
+				
+				
+            </div>
+			
+			
+			<p class="lead"><h2>Data masters</h2></p>
+				
+				<!-- .row -->
+            <div class="row">
+
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="http://www.sarahnadi.org/" target="_blank"><img src="img/people/sarah.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>Sarah Nadi
+                                <small class="affil">University of Alberta, Canada</small>
+                            </h3>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
+			
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="http://www.se.cs.titech.ac.jp/~hayashi/" target="_blank"><img src="img/people/shinpei.png" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>Shinpei Hayashi
+                                <small class="affil">Tokyo Institute of Technology, Japan</small>
+                            </h3>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
+
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="https://hideakihata.github.io/" target="_blank"><img src="img/people/hideaki.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>Hideaki Hata
+                                <small class="affil">Nara Institute of Science and Technology, Japan</small>
+                            </h3>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
+				
+				
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="https://ojcchar.github.io/"  target="_blank"><img src="img/people/oscar.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>Oscar Chaparro
+                                <small class="affil">The University of Texas at Dallas, USA</small>
+                            </h3>
+                        </figcaption>
+                    </figure>
+                </div>
+			
+				
+				
+            </div>
+				
+				
+				<!-- .row -->
+            
+				
+				
+				<!-- .row -->
+            <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="https://www.eecis.udel.edu/~clause/" target="_blank"><img src="img/people/james.png" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>James Clause
+                                <small class="affil">University of Delaware, USA</small>
+                            </h3>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
+
+            
+            </div>
+			
+			
+			
+			<p class="lead"><h2>Web and publicity</h2></p>
+			
+				<!-- .row -->
+            <div class="row">
+            
+
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="http://www.sa.cs.titech.ac.jp/~tkobaya/index.html.en" target="_blank"><img src="img/people/takashi.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>Takashi Kobayashi 
+                                <small class="affil">Tokyo Institute of Technology, Japan</small>
+                            </h3>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
+
+				
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="http://neilernst.net/" target="_blank"><img src="img/people/neil.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>Neil Ernst
+                                <small class="affil">University of Victoria, Canada</small>
+                            </h3>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
+				
+				
+				
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="https://ojcchar.github.io/"  target="_blank"><img src="img/people/oscar.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>Oscar Chaparro
+                                <small class="affil">The University of Texas at Dallas, USA</small>
+                            </h3>
+                        </figcaption>
+                    </figure>
+                </div>
+			
+				
+				
+            </div>
+			
+			 <div class="row">
+                <div class="col-md-6">
+                    <p class="lead"><h2>Program committee</h2></p>
+					<ul class="reg_list">
+						<li>Christoph Treude</li>
+						<li>David Shepherd</li>
+						<li>Martin Robillard</li>
+						<li>Sarah Nadi</li>
+						<li>Laura Moreno</li>
+						<li>Andrian Marcus</li>
+						<li>Michele Lanza</li>
+						<li>Takashi Kobayashi</li>
+						<li>Shinpei Hayashi</li>
+						<li>Hideaki Hata</li>
+						<li>Marco Gerosa</li>
+						<li>Neil Ernst</li>
+						<li>James Clause</li>
+						<li>Oscar Chaparro</li>
+					</ul>
+                </div>
+            </div>
+			 <div class="row">
+                <div class="col-md-12">
+                    <p class="lead"><h2>Panel of judges</h2></p>
+					TBA
+                </div>
+            </div>
+            
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- .team -->
+
+
+    <section id="section-venue" class="section-wrapper ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>VENUE</h1>
+                        <p class="lead">DySDoc3 will take place at the Universidad Rey Juan Carlos, in the building at Plaza Manuel Becerra.</p>
+						<p class="lead">Address: Plaza de Manuel Becerra, 14, 28028 Madrid, Spain</p>
+                    </div>
+                </div>
+            </div>
+            <!-- /.row-->
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="googleMap"></div>
+                </div>
+            </div>
+            <!-- .row-->
+
+            <!-- <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h2>STAY INFORMED</h2>
+                        <p>Don't miss the event!</p>
+                    </div>
+                    <form id="contactForm" class="subscribe-form form-inline" action="sendemail.php" method="POST">
+                        <div class="form-group">
+                            <label for="emailTwo" class="sr-only">Email</label>
+                            <input type="email" class="form-control input-lg" required="" id="emailTwo" name="email" placeholder="Enter your email address">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg">SUBSCRIBE</button>
+                    </form>
+                </div>
+            </div>-->
+
+        </div>
+    </section>
+    <!-- contact-section -->
+
+
+    <footer class="footer">
+        <div class="copyright-section">
+            <div class="container">
+                <div class="col-md-12">
+                    <div class="copytext text-center">&copy; DocGen 2018. All rights reserved | Design By: <a href="https://uicookies.com">uiCookies</a></div>
+                </div>
+            </div>
+            <!-- .container -->
+        </div>
+        <!-- .copyright-section -->
+    </footer>
+    <!-- .footer -->
+
+</div>
+<!-- #main-wrapper -->
+
+
+<!-- jquery -->
+<script src="js/jquery-2.1.4.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+
+<!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-3vIi_UKTTXeW_6S3mwCDeb1rY7WIpxo&callback=initMap"
+  type="text/javascript"></script>
+
+<!-- Responsive Bootstrap Toolkit -->
+<script src="js/bootstrap-toolkit.min.js"></script>
+
+<!--<script src="js/one-page-nav.js"></script>-->
+<script src="js/scripts.js"></script>
+</body>
+</html>
