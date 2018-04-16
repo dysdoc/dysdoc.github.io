@@ -76,8 +76,8 @@
         <div class="content">
             <div class="event-date">September 25, 2018, Madrid, Spain</div>
             <h1>Third International Workshop on <br/>Dynamic Software Documentation (DySDoc3)</h1>
-            <p class="lead">Hosted by the <a href="https://icsme2018.github.io/"  target="_blank">IEEE International Conference on Software Maintenance and Evolution (ICSME 2018)</a></p>
-            <p class="lead">The DySDoc3 workshop will host the <a class="page-scroll" href="#section-challenge">First Software Documentation Generation Challenge (DocGen).</a></p>
+            <p class="lead">Hosted by the <a href="https://icsme2018.github.io/" style="color:rgba(255, 255, 255, .9);font-weight:bold;"  target="_blank">IEEE International Conference on Software Maintenance and Evolution (ICSME 2018)</a></p>
+            <p class="lead">The DySDoc3 workshop will host the <a href="#section-challenge"  style="color:rgba(255, 255, 255, .9);font-weight:bold;"  target="_blank">First Software Documentation Generation Challenge (DocGen).</a></p>
              <!-- <button type="button" class="btn btn-default btn-lg">STAY IN THE LOOP</button>-->
         </div>
     </div>
@@ -86,12 +86,6 @@
 
     <section id="section-intro" class="section-wrapper about-event">
         <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                </div>
-                <div class="col-md-4">
-				</div>
-            </div>
             <div class="row">
                 <div class="col-md-8">
                     <div class="section-title">
@@ -132,7 +126,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <p class="lead"><a href="https://..."  target="_blank">Call for submissions (PDF)</a>
+                    <p class="lead"><a href="files/DysDoc3 CFP.pdf"  target="_blank">Call for submissions (PDF)</a>
 					</p>
                     <p class="lead">
                         The challenge is to build an automated system that can create, on-demand, reference documentation for a Java class. The documentation should address, as best as possible, the information needs of an experienced programmer who is considering using the class as part of a software development task. The documentation will provide information helpful to understand the design of the class and how to use it, among others. Examples of the types of information that the document could integrate, include: key methods, usage constraints, usage examples, the role of the class in applicable design patterns, known issues and limitations, etc.
@@ -168,11 +162,6 @@
                 </div>
             </div>
 			
-			
-						
-			<!-- Twitter timeline was here -->
-            <div id="subsection-dates"  class="row">
-			</div>
         </div>
     </section>
 
@@ -188,13 +177,13 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <p class="lead">Interested teams of participants can enter the challenge in one of two categories: competition or exhibition. The <b>Competition category</b> will only accept entries that address the specific 2018 DocGen Challenge. The summaries of the competition entries will be published in the ICSME proceedings. The <b>Exhibition category</b> will accept any demonstration of documentation generation technology, for any programming language, technology, or types of documents. Entries in the Exhibition category will be invited to present at the workshop, but will not be evaluated as part of the competition. The purpose of the exhibition category is to showcase state of the art in documentation generation tools, which may inspire the following edition of the DocGen Challenge.
+                    <p class="lead">Interested teams of participants can enter the challenge in one of two categories: challenge or exhibition. The <b>Challenge category</b> will only accept entries that address the specific 2018 DocGen Challenge. The summaries of the challenge entries will be published in the ICSME proceedings. The <b>Exhibition category</b> will accept any demonstration of documentation generation technology, for any programming language, technology, or types of documents. Entries in the Exhibition category will be invited to present at the workshop, but will not be evaluated as part of the competition. The purpose of the exhibition category is to showcase state of the art in documentation generation tools, which may inspire the following edition of the DocGen Challenge.
                     </p>
                     <p class="lead">Participation in the 2018 DocGen Challenge involves two phases: the <b>qualification</b> and the <b>competition</b>. All participants in both categories must qualify. All qualifying entries will be invited to the DySDoc workshop.
                     </p>
                     <p class="lead"><h2>Qualification</h2>
                     </p>
-                    <p class="lead">To qualify for participation in the competition or exhibition, participants must submit a 2-page description of the key idea(s) behind their document generator. The description should contain the following information:</p>
+                    <p class="lead">To qualify for participation in the challenge or exhibition, participants must submit a 2-page description of the key idea(s) behind their document generator. The description should contain the following information:</p>
 					
 					<ul class="reg_list">
 					  <li>Authors</li>
@@ -202,7 +191,7 @@
 					  <li>Brief overview of technique(s) used</li>
 					  <li>Preliminary results, including an HTML link to: </li>
 						<ul class="reg_list">
-						  <li>for the competition entries only - the generated reference documentation for class XXXXXX</li>
+						  <li>for the challenge entries only - the generated reference documentation for class XXXXXX</li>
 						  <li>for the exhibition entries only - samples of generated documentation produced by the tool</li>
 						</ul>
 					</ul>
@@ -216,19 +205,21 @@
 					
                     <p class="lead"><h2>Competition</h2>
                     </p>
-                    <p class="lead">On the day of the workshop, the qualified competition entries will be evaluated live. A list of target class names will be provided to the competitors, who will use their tools to generate the respective reference documentation. For each input class, the reference documentation must be generated in less than 2 minutes. The generated documents will be evaluated by a panel of judges and by the workshop attendants based on:
+                    <p class="lead">On the day of the workshop, the qualified challenge entries will be evaluated live. A list of target class names will be provided to the competitors, who will use their tools to generate the respective reference documentation. For each input class, the reference documentation must be generated in less than 2 minutes. The generated documents will be evaluated by a panel of judges and by the workshop attendants based on:
                     </p>
 					<ul class="reg_list">
-					  <li>Correctness of the content</li>
-					  <li>Usefulness of the content in using the class</li>
-					  <li>Conciseness of the document</li>
-					  <li>Presentation of the information</li>
+					  <li><b>Comprehesiveness</b>: does the information provided cover different specific needs and variety of usage scenarios for the given class?</li>
+					  <li><b>Correctness</b>: is the information provided consistent with the source code and does not present contradictions?</li>
+					  <li><b>Conciseness</b>: is the information provided succint, relevant, and non-redundant?</li>
+					  <li><b>Originality</b>: does the information provided present new and original content?</li>
+					  <li><b>Usefulness</b>: does the information provided address common information needs and is critical for understanding the given class?</li>
+					  <li><b>Presentation</b>: is the information provided easy to read, understand, and navigate?</li>
 					</ul>
                     <p class="lead">The best entries will receive awards in several categories, such as: best tool, best presentation, people's choice, etc.
                     </p>
-					 <p class="lead"><h2>Exhibition</h2>
+					 <p class="lead"><h2 style="padding-top:20px;">Exhibition</h2>
                     </p>
-                    <p class="lead">On the day of the workshop, the qualified exhibition entries will be presented to the audience, not as part of the competition. See details in the program.
+                    <p class="lead">On the day of the workshop, the qualified exhibition entries will be presented to the audience, not as part of the challenge. See details in the program.
                     </p>
 						
                 </div>
@@ -236,13 +227,13 @@
             </div>
         </div>
 		
-        <div id="section-important-dates" class="container" style="padding-top:50px;">
+        <div id="section-important-dates" class="container" style="padding-top:40px;">
             <div class="row">
 				<div  class="col-md-12">
-                    <p class="lead"><h2>Important dates</h2></p>
+                    <h2>Important dates</h2>
                     <p class="lead">July 20, 2018 - Qualifier submissions</p>
                     <p class="lead">July 27, 2018 - Notifications of qualifiers</p>
-                    <p class="lead">August 3, 2018 - Camera-ready version for accepted competition entries</p>					
+                    <p class="lead">August 3, 2018 - Camera-ready version for accepted challenge entries</p>					
                 </div>	
             </div>
         </div>
@@ -285,10 +276,10 @@
                     </p>
 					<ul class="reg_list">
 					  <li>Opening</li>
-					  <li>Live judging of the competition entries</li>
+					  <li>Live judging of the challenge entries</li>
 					  <li>Awards</li>
 					  <li>Presentations of the award-winning tools</li>
-					  <li>Poster and live demonstrations of all exhibition and competition entries</li>
+					  <li>Poster and live demonstrations of all exhibition and challenge entries</li>
 					</ul>
                 </div>
             </div>
@@ -306,8 +297,7 @@
                 </div>
             </div>
 			
-			 <p class="lead"><h2>General co-chairs</h2>
-			</p>
+			<p class="lead"><h2>General co-chairs</h2></p>
             <div class="row">
                 <div class="col-sm-6 col-md-3">
                     <figure class="thumbnail">
@@ -316,12 +306,6 @@
                             <h3>Martin Robillard
                                 <small class="affil">McGill University, Canada</small>
                             </h3>
-                            <ul class="social-links">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
-                            </ul>
                         </figcaption>
                     </figure>
                 </div>
@@ -334,12 +318,6 @@
                             <h3>Andrian Marcus
                                 <small class="affil">The University of Texas at Dallas, USA</small>
                             </h3>
-                            <ul class="social-links">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
-                            </ul>
                         </figcaption>
                     </figure>
                 </div>
@@ -352,12 +330,6 @@
                             <h3>Christoph Treude
                                 <small class="affil">University of Adelaide, Australia</small>
                             </h3>
-                            <ul class="social-links">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
-                            </ul>
                         </figcaption>
                     </figure>
                 </div>
@@ -370,20 +342,13 @@
                             <h3>Michele Lanza
                                 <small class="affil">Universit&agrave;  della Svizzera italiana, Switzerland</small>
                             </h3>
-                            <ul class="social-links">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
-                            </ul>
                         </figcaption>
                     </figure>
                 </div>
                 <!-- /.col-sm-6 -->
             </div>
 			
-			<p class="lead"><h2>Program co-chairs</h2>
-			</p>
+			<p class="lead"><h2>Program co-chairs</h2></p>
 
 			
 			<div class="row">
@@ -395,12 +360,6 @@
                             <h3>Neil Ernst
                                 <small class="affil">University of Victoria, Canada</small>
                             </h3>
-                            <ul class="social-links">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
-                            </ul>
                         </figcaption>
                     </figure>
                 </div>
@@ -413,12 +372,6 @@
                             <h3>Marco Gerosa
                                 <small class="affil">Northern Arizona University, USA</small>
                             </h3>
-                            <ul class="social-links">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
-                            </ul>
                         </figcaption>
                     </figure>
                 </div>
@@ -430,8 +383,7 @@
             </div>
 			
 			
-			<p class="lead"><h2>Masters of ceremony</h2>
-			</p>
+			<p class="lead"><h2>Challenge co-hosts</h2></p>
 			
 				<!-- .row -->
             <div class="row">
@@ -442,12 +394,6 @@
                             <h3>Laura Moreno
                                 <small class="affil">Colorado State University, USA</small>
                             </h3>
-                            <ul class="social-links">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
-                            </ul>
                         </figcaption>
                     </figure>
                 </div>
@@ -461,13 +407,6 @@
                             <h3>David Shepherd
                                 <small class="affil">ABB Corporate Research, USA</small>
                             </h3>
-                            <ul class="social-links">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
-                            </ul>
                         </figcaption>
                     </figure>
                 </div>
@@ -477,8 +416,7 @@
             </div>
 			
 			
-			<p class="lead"><h2>Data masters</h2>
-			</p>	
+			<p class="lead"><h2>Data masters</h2></p>
 				
 				<!-- .row -->
             <div class="row">
@@ -490,12 +428,6 @@
                             <h3>Sarah Nadi
                                 <small class="affil">University of Alberta, Canada</small>
                             </h3>
-                            <ul class="social-links">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
-                            </ul>
                         </figcaption>
                     </figure>
                 </div>
@@ -508,12 +440,6 @@
                             <h3>Shinpei Hayashi
                                 <small class="affil">Tokyo Institute of Technology, Japan</small>
                             </h3>
-                            <ul class="social-links">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
-                            </ul>
                         </figcaption>
                     </figure>
                 </div>
@@ -526,12 +452,6 @@
                             <h3>Hideaki Hata
                                 <small class="affil">Nara Institute of Science and Technology, Japan</small>
                             </h3>
-                            <ul class="social-links">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
-                            </ul>
                         </figcaption>
                     </figure>
                 </div>
@@ -545,12 +465,6 @@
                             <h3>Oscar Chaparro
                                 <small class="affil">The University of Texas at Dallas, USA</small>
                             </h3>
-                            <ul class="social-links">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
-                            </ul>
                         </figcaption>
                     </figure>
                 </div>
@@ -573,12 +487,6 @@
                             <h3>James Clause
                                 <small class="affil">University of Delaware, USA</small>
                             </h3>
-                            <ul class="social-links">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
-                            </ul>
                         </figcaption>
                     </figure>
                 </div>
@@ -589,8 +497,7 @@
 			
 			
 			
-			<p class="lead"><h2>Web and publicity</h2>
-			</p>	
+			<p class="lead"><h2>Web and publicity</h2></p>
 			
 				<!-- .row -->
             <div class="row">
@@ -603,12 +510,6 @@
                             <h3>Takashi Kobayashi 
                                 <small class="affil">Tokyo Institute of Technology, Japan</small>
                             </h3>
-                            <ul class="social-links">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
-                            </ul>
                         </figcaption>
                     </figure>
                 </div>
@@ -622,12 +523,6 @@
                             <h3>Neil Ernst
                                 <small class="affil">University of Victoria, Canada</small>
                             </h3>
-                            <ul class="social-links">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
-                            </ul>
                         </figcaption>
                     </figure>
                 </div>
@@ -642,12 +537,6 @@
                             <h3>Oscar Chaparro
                                 <small class="affil">The University of Texas at Dallas, USA</small>
                             </h3>
-                            <ul class="social-links">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
-                            </ul>
                         </figcaption>
                     </figure>
                 </div>
@@ -658,8 +547,7 @@
 			
 			 <div class="row">
                 <div class="col-md-6">
-                    <p class="lead"><h2>Program committee</h2>
-                    </p>
+                    <p class="lead"><h2>Program committee</h2></p>
 					<ul class="reg_list">
 						<li>Christoph Treude</li>
 						<li>David Shepherd</li>
@@ -680,8 +568,7 @@
             </div>
 			 <div class="row">
                 <div class="col-md-12">
-                    <p class="lead"><h2>Panel of judges</h2>
-                    </p>
+                    <p class="lead"><h2>Panel of judges</h2></p>
 					TBA
                 </div>
             </div>

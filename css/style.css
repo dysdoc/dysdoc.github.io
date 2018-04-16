@@ -414,14 +414,14 @@ button:focus,
  * Section Wrapper
  *---------------------------*/
 .section-wrapper {
-    padding : 100px 0;
+    padding : 60px 0;
     }
 
 /*---------------------------
  * Section Title
  *---------------------------*/
 .section-title {
-    margin-bottom : 60px;
+    margin-bottom : 40px;
     text-align    : center;
     }
 
@@ -461,7 +461,7 @@ button:focus,
     line-height      : 22px;
     background-color : transparent;
     border           : 0;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     }
 
 @media (max-width : 767px) {
@@ -475,7 +475,7 @@ button:focus,
     }
 
 .team .thumbnail .caption {
-    padding          : 10px;
+    padding          : 5px;
     }
 
 .team .thumbnail h3 {
