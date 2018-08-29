@@ -782,7 +782,7 @@ section div p.lead{
 }
 
 
-ul.reg_list{
+.reg_list{
 	font-size: 19px;
     font-weight : 300;
     list-style : initial;
