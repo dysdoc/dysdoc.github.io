@@ -549,6 +549,11 @@ button:focus,
     display     : block;
     line-height : 1;
     }
+	
+.section-ajenda .session h4 {
+margin         : 5px 0 5px 20px;
+font-size      : 16px;
+}
 
 /* --------------------------
  * Pricing Table
