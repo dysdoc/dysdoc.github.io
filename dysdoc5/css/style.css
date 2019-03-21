@@ -805,3 +805,23 @@ section div p.lead{
 a:visited{
   color:#fd367e;
 }
+
+ul.oc_list li {
+  list-style-type: none;
+}
+
+span.emrole, span.role {
+  display: inline-block;
+  font-size: 65%;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  /*text-transform: uppercase;*/
+  padding: 0.3em;
+  width: 7.5em;
+  line-height: 1;
+}
+span.role {
+  background-color: orange;
+  color: white;
+}
