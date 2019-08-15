@@ -375,6 +375,7 @@ button:focus,
     -webkit-transform : translateY(-50%);
     -moz-transform    : translateY(-50%);
     font-weight : normal;
+	text-shadow: 5px 5px 1px #333;
     }
 
 .jumbotron .content h1 {
@@ -392,6 +393,7 @@ button:focus,
 .jumbotron .content .event-date {
     font-size     : 24px;
     margin-bottom : 40px;
+	text-shadow: 2px 2px 0px #333;
     }
 
 .jumbotron .btn {
