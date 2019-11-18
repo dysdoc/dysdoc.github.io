@@ -124,17 +124,13 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12">
-                    <p class="lead">
-                        <i>NB Technical details such as format and evaluation metrics subject to change
-						</i>
-                    </p>
-					
+                <div class="col-md-12">		
                     <p class="lead">The goal of the DeClutter challenge is to build an automated tool that can identify unnecessary software documentation at the class or file level. For example, a comment saying <code>//loop from 1 to N</code> just before code implementing exactly that is not helpful, and worse, could drift when the underlying code is changed to <code>(N-1)</code> (for example).
                     </p>
-                    <p class="lead">The tool should take in a CSV file in the <a href="declutter-format.html" target="_blank">described format</a>, and output a label for each row as either "Clutter" or "Non-Clutter". Tools will be ranked according to commonly accepted machine learning scoring, e.g. Accuracy, Precision, Recall, Matthews Correlation. We may also award a prize for the tool which does best in some hitherto unappreciated dimension. DeClutter will be run as automatically as possible, using Kaggle as a leaderboard mechanism. This is a great opportunity for new researchers to get involved in the topic.
-                    </p>
-                    <p class="lead">Participants (either teams or individuals) will initially have access to the development data only. Later, the unlabelled test data will be released (see a tentative timeline below). After the assessment, the labels for the test data will be released as well. Both development and test data will be extracted from the <a href="http://www.jabref.org/" target="_blank">JabRef project</a>. However, participants might use additional labeled data from other sources in order to develop and implement their systems. Guidelines describing the annotation and providing detailed instructions for participants will be released with the development data.
+                    <p class="lead">As such, it is considered as non-informative and labeled as "Non-information = Yes". The tool should take in a CSV file in the <a href="declutter-format.html" target="_blank">described format</a>, and output a label for each row as either "Non-information = Yes" for clutter, non-informative comments and "Non-information = No" for non-clutter ones.</p>
+                    <p class="lead">To download the guidelines and dataset please refer to the [declutter repository](https://github.com/dysdoc/declutter). Participants (either teams or individuals) will initially have access to the development data only. 
+			  Later, the unlabelled test data will be released (see the timeline below). 
+			  After the assessment, the labels for the test data will be released as well. Both development and test data will be extracted from the <a href="http://www.jabref.org/" target="_blank">JabRef project</a>. However, participants might use additional labeled data from other sources in order to develop and implement their systems. Guidelines describing the annotation and providing detailed instructions for participants will be released with the development data.
                     </p>
 					
                     <p class="lead">After submitting the predictions for the test data, participants will be required to provide a short report including a brief description of their approach, an illustration of their experiments, in particular techniques and resources used (included additional data used for building the model, if any), and an analysis of their results. Formatting guidelines will be released with the test data.</p>
@@ -148,7 +144,7 @@
 					</p>
 					
 					<ul class="reg_list">
-					  <li>4th November 2019: Development data available to participants</li>
+					  <li>15th November 2019: Development data available to participants</li>
 					  <li>20th April 2020: Test data available, registration closes</li>
 					  <li>4th May 2020: System results due to organizers</li>
 					  <li>8th June 2020: Assessment returned to participants</li>
